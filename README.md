@@ -3,6 +3,8 @@ Instagram Challenge
 
 ### An Instagram style web application built using Ruby on Rails
 
+[![Code Climate](https://codeclimate.com/github/KateWilkinson/instagram-challenge/badges/gpa.svg)](https://codeclimate.com/github/KateWilkinson/instagram-challenge)
+
 We were asked to build a web application for users to upload, comment on and like images - much like Instagram.
 
 ![Screenshot](./public/screenshots/screenshot1.jpg?raw=true)
