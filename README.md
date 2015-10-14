@@ -27,6 +27,7 @@ To run tests, run rspec from the command line.
 
 - Users are able to sign up, log in and log out
 - Users are able to upload images
+- Users can see all uploaded images on the homepage, along with likes, comments and username of the creator
 - Users can comment on images
 - Users are able to 'like' images
 - Users are only able to delete their own images and comments
@@ -35,7 +36,6 @@ To run tests, run rspec from the command line.
 ## Still to complete/refactor
 
 - User should only be able to 'like' an image once
-- Username should be displayed next to uploaded images and comments
 - Adjust implementation of 'like' so it works without a page refresh
 - Further styling to be implemented
 
