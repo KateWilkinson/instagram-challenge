@@ -7,7 +7,7 @@
 
         <div class="center-block">
           <%= link_to image_tag(image.picture.url(:large)), image_path(image)%><br>
-          <%= image.name %> posted by <span class="user"> <%= image.user_id %></span>
+          <%= image.name %> posted by <span class="user"> <%= image.find_username %></span>
           <span class='badge'><%= pluralize image.likes.count, 'like' %></span>
         </div>
           <br>

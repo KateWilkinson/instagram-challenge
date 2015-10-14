@@ -14,4 +14,8 @@ class Image < ActiveRecord::Base
 
   validates :name, length: { minimum: 3 }
 
+  def find_username
+    User.find(self.user_id).username
+  end
+
 end
